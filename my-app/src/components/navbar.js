@@ -5,7 +5,7 @@ export default function Navbar(props) {
     
   return (
     <div class="navbar">
-      <div className="logo"><img src="./web-development/j0mg0esl.png"/></div>
+      <div className="logo"><img src="/j0mg0esl.png"/></div>
       <ul>
         <li>
           <a href={props.url}>{props.name1}</a>
