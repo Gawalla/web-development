@@ -4,7 +4,11 @@ import "../App.css";
 export default function Login(props) {
   return (
     <div className="container">
+<<<<<<< HEAD
       <div><img src="/jOmgOesl.png" className='loginLogo'/></div>
+=======
+      <div><img src="j0mg0esl.png" className='loginLogo'/></div>
+>>>>>>> b941fe23e2fd424b3d2495c0d88934bdd4d26d19
       <div className="heading">
         <h1>{props.heading}</h1>
         <h2>{props.subheading}</h2>
