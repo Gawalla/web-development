@@ -4,11 +4,7 @@ import "../App.css";
 export default function Login(props) {
   return (
     <div className="container">
-<<<<<<< HEAD
       <div><img src="/logo.png" className='loginLogo'/></div>
-=======
-      <div><img src="/web-development/logo.png" className='loginLogo'/></div>
->>>>>>> 546e3a5ebb405b48f0cf806ad03acd88d70aaee2
       <div className="heading">
         <h1>{props.heading}</h1>
         <h2>{props.subheading}</h2>
