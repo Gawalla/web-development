@@ -6,7 +6,7 @@ export default function Login(props) {
 
   return (
     <div className="container">
-      <div><img src="/my-app/public/logo.png" className='loginLogo'/></div>
+      <div><img src="my-app/public/logo.png" className='loginLogo'/></div>
       <div className="heading">
         <h1>{props.heading}</h1>
         <h2>{props.subheading}</h2>
