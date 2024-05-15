@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background: radial-gradient(circle at 0% 0%, rgba(0, 255, 247, 0.85), rgba(255, 60, 205, 0.85));
+
+
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #333;
+        padding: 10px;
+    }
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    .navbar li {
+        margin-right: 20px;
+    }
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+    }
+    .navbar li:last-child {
+        margin-right: 0;
+    }
+    .navbar .logo {
+        font-size: 24px;
+        color: white;
+        
+    }
+.logo img{
+  width: 5vh;
+  height:3vh ;
+ margin: -5% 0%;
+  filter: invert(100%);
+}
+.loginLogo{
+  width: 10vh;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.hidden {
+  display: none;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.main{
+  display:flex;
+  flex: 1;
+  margin-top:-10vh ;
+  align-items:center;
+  justify-content: center;
+  
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  height: 90vh;
+  margin-top: 10%;
+  color: #faf9f9;
+}
+.heading{
+  font-size: 1.5vh;
+  display: block;
+  text-align: center;
+  
+}
+.inputBox{
+  color: #fefeff;
+  border-bottom: 2px solid rgb(255, 254, 254);
+  padding: 10px 0px;
+  
+  width:50vw;
+}
+.input{
+  all: initial; 
+  color: white;
+  
+}
+.heading h2{
+  margin-top: -8%;
+  margin-bottom: 5vh;
+  
+}
+.btn{
+  background-color: white;
+  width:30vw;
+  height:4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid transparent;
+  border-radius: 5px;
+  margin:5% auto;
+  color: black;
+
+}
+.icon{
+  flex: 1;
+  border: 1px solid rgb(254, 252, 252);
+  margin: 10px;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width:25vw ;
+  font-size: x-large;
+  font-weight: bold;
+  height: 4vh;
+  border-radius: 5px;
+  color: black;
+}
+.iconBox{
+  
+  display: flex;
+
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
