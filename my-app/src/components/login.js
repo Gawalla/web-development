@@ -2,9 +2,11 @@ import React from "react";
 import "../App.css";
 
 export default function Login(props) {
+  const logoUrl = process.env.PUBLIC_URL +'/logo.png';
+
   return (
     <div className="container">
-      <div><img src="/logo.png" className='loginLogo'/></div>
+      <div><img src={logoUrl} className='loginLogo'/></div>
       <div className="heading">
         <h1>{props.heading}</h1>
         <h2>{props.subheading}</h2>
