@@ -1,12 +1,12 @@
 import React from "react";
 import "../App.css";
-import gallary from '../images/gallary/logo.png';
+import gallary from '../images/gallary.js';
 
 export default function Login(props) {
 
   return (
     <div className="container">
-      <div><img src={gallary} className='loginLogo'/></div>
+      <div><img src={gallary.logo} className='loginLogo'/></div>
       <div className="heading">
         <h1>{props.heading}</h1>
         <h2>{props.subheading}</h2>

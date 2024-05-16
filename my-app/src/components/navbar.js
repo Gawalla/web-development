@@ -1,5 +1,5 @@
 import React ,{useState} from "react";
-import gallary from `${process.env.PUBLIC_URL}/images/gallary/logo.png`;
+import gallary from '../images/gallary.js';
  
 import "../App.css";
 export default function Navbar(props) {
@@ -7,7 +7,7 @@ export default function Navbar(props) {
   return (
     <div class="navbar">
 
-      <div className="logo"><img src={gallary}/></div>
+      <div className="logo"><img src={gallary.logo}/></div>
       <ul>
         <li>
           <a href={props.url}>{props.name1}</a>
