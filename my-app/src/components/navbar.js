@@ -1,6 +1,6 @@
 import React ,{useState} from "react";
 import gallary from `${process.env.PUBLIC_URL}/images/gallary/logo.png`;
-
+ 
 import "../App.css";
 export default function Navbar(props) {
     

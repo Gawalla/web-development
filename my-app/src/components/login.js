@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
-import gallary from `${process.env.PUBLIC_URL}/images/gallary/logo.png`;
-;
+import gallary from '../images/gallary/logo.png';
+
 export default function Login(props) {
 
   return (
