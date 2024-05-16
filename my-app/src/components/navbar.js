@@ -1,12 +1,13 @@
 import React ,{useState} from "react";
-import gallary from  "../images/gallary";
+import gallary from `${process.env.PUBLIC_URL}/images/gallary/logo.png`;
+
 import "../App.css";
 export default function Navbar(props) {
     
   return (
     <div class="navbar">
 
-      <div className="logo"><img src={gallary.logo}/></div>
+      <div className="logo"><img src={gallary}/></div>
       <ul>
         <li>
           <a href={props.url}>{props.name1}</a>
