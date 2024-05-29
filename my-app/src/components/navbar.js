@@ -1,10 +1,11 @@
 import React ,{useState} from "react";
 import gallary from '../images/gallary.js';
- 
 import "../App.css";
 export default function Navbar(props) {
     
   return (
+    
+
     <div class="navbar">
 
       <div className="logo"><img src={gallary.logo}/></div>
@@ -26,6 +27,7 @@ export default function Navbar(props) {
         </li>
       </ul>
     </div>
+    
   );
   
 }
